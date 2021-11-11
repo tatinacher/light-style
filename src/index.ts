@@ -1,7 +1,7 @@
 import { compile, serialize, stringify } from "stylis";
 import { generateClassName } from "./generateClassName";
 
-export default (function () {
+export default (() => {
   const headStyles = document.createElement("style");
   document.head.appendChild(headStyles);
 

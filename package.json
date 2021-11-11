@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Simple style",
   "main": "lib/index.js",
-  "types": "lib/index.d.jts",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -21,7 +21,9 @@
   },
   "author": "Tatiana Cherednichenko",
   "keywords": [
-    "style",
+    "css",
+    "css-in-js",
+    "styling",
     "class"
   ],
   "license": "MIT",
