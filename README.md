@@ -1,4 +1,4 @@
-# Light style
+# Light stylish
 
 - Add your css styles in js
 - Nesting styles
@@ -7,7 +7,7 @@ Example with React
 
 ```jsx
 import React from "react";
-import { css } from "light-style";
+import { css } from "light-stylish";
 
 const App = () => {
   const [isVisible, setVisibility] = React.useReducer((is) => !is, false);
